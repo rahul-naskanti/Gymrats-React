@@ -201,9 +201,7 @@ const UserSignup = () => {
         throw new Error("Unable to load Razorpay checkout.");
       }
 
-      const orderResponse = await fetch(
-  `${import.meta.env.VITE_BACKEND_URL}/api/payments/razorpay/signup-order`,
-  {
+       const orderResponse = await fetch("/api/payments/razorpay/signup-order", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

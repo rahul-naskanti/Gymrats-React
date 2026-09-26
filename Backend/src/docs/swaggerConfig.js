@@ -16,7 +16,7 @@ const options = {
     },
     servers: [
       {
-        url: "https://gymrats-api.onrender.com",
+        url: "https://gymrats-backend-sne6.onrender.com",
         description: "Production Server (Render)",
       },
       {

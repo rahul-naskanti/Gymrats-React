@@ -1,10 +1,28 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://gymrats-api.onrender.com/api/:path*" },
-    { "source": "/signup/:path*", "destination": "https://gymrats-api.onrender.com/signup/:path*" },
-    { "source": "/trainer/:path*", "destination": "https://gymrats-api.onrender.com/trainer/:path*" },
-    { "source": "/appointments/:path*", "destination": "https://gymrats-api.onrender.com/appointments/:path*" },
-    { "source": "/appointments", "destination": "https://gymrats-api.onrender.com/appointments" },
-    { "source": "/:path*", "destination": "/index.html" }
+    {
+      "source": "/api/:path*",
+      "destination": "https://gymrats-backend-sne6.onrender.com/api/:path*"
+    },
+    {
+      "source": "/signup/:path*",
+      "destination": "https://gymrats-backend-sne6.onrender.com/signup/:path*"
+    },
+    {
+      "source": "/trainer/:path*",
+      "destination": "https://gymrats-backend-sne6.onrender.com/trainer/:path*"
+    },
+    {
+      "source": "/appointments/:path*",
+      "destination": "https://gymrats-backend-sne6.onrender.com/appointments/:path*"
+    },
+    {
+      "source": "/appointments",
+      "destination": "https://gymrats-backend-sne6.onrender.com/appointments"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
   ]
 }
